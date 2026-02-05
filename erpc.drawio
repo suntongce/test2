@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6" pages="2">
   <diagram name="erpc_c" id="zRhXtCekLgVXtm_LN6KN">
     <mxGraphModel dx="1418" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,8 +25,107 @@
             <mxPoint x="260" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7akxX1_1KKBywnbxFruS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="setup???" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="330" as="geometry" />
+        <mxCell id="d4W47lUFwmkL1nd1ogLv-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="setup" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="d4W47lUFwmkL1nd1ogLv-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="export symbol" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nMWQatsSdlq4WuQmmjJ2" name="link">
+    <mxGraphModel dx="2245" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LinkAttrBase" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-14" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Link" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Classname" vertex="1">
+          <mxGeometry height="86" width="160" x="-50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-10" parent="uVEh_IZ-oH-ks5qNj5ph-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-11" parent="uVEh_IZ-oH-ks5qNj5ph-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-12" parent="uVEh_IZ-oH-ks5qNj5ph-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UdpLink&lt;br&gt;CustomLink&lt;div&gt;SerialLink&lt;/div&gt;&lt;div&gt;DgrmLink&lt;br&gt;SockStreamClientLink&lt;/div&gt;&lt;div&gt;SockStreamServerLink&lt;/div&gt;&lt;div&gt;SpiLink&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="120" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RouteItem" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-22" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-24" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-26" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RouteFactory" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RouteTable&lt;br&gt;RouteModeConfig" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LinkManager" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-30" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-25" value="use">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" value="IbusService：：Initialize" vertex="1">
+          <mxGeometry height="60" width="120" x="827" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-32" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-25" value="use">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LinkTransport" vertex="1">
+          <mxGeometry height="60" width="120" x="827" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-34" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-31" value="create">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="erpc_transport_link_init" vertex="1">
+          <mxGeometry height="30" width="270" x="820" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-37" edge="1" parent="1" source="uVEh_IZ-oH-ks5qNj5ph-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uVEh_IZ-oH-ks5qNj5ph-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="360" />
+              <mxPoint x="1220" y="360" />
+              <mxPoint x="1220" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IbusService::InitializeServer" vertex="1">
+          <mxGeometry height="30" width="270" x="910" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;IbusService::InitializeClient" vertex="1">
+          <mxGeometry height="30" width="270" x="910" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uVEh_IZ-oH-ks5qNj5ph-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;IbusService&lt;br&gt;erpc.so暴露出来的符号&lt;/h1&gt;&lt;div&gt;供.erpc和erpc_out使用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="797" y="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
